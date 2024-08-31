@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:layout_marginEnd="50dp">
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11 June 21"
+        android:textSize="12sp"
+        android:textColor="@color/mic_color"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/receiver_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="visible"
+            android:src="@drawable/img_default_profile_light"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="1dp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/report_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/receive_message_background"
+            android:layout_marginTop="8dp"
+            android:paddingEnd="2dp"
+            android:orientation="vertical">
+
+            <TextView
+            android:id="@+id/received_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+            android:text="h  "
+                android:textColor="@color/black"
+            android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/received_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:42 am"
+                android:textColor="@color/black"
+                android:textSize="9sp"
+                android:layout_marginBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="6dp"
+                 />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    
+

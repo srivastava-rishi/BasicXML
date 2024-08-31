@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222A35</color>
+    <color name="royalty_blue">#0595c0 </color>
+    <color name="new_white">#FCFBFF</color>
+    <color name="button_color">#00AAFD</color>
+    <color name="tint_color">#000000</color>
+    <color name="greyish">#D5D7D9</color>
+    <color name="incoming_message">#F8F8F7</color>
+    <color name="outgoing_message">#F1F7FF</color>
+    <color name="send_message">#F7F7F7</color>
+    <color name="hint_color">#DFDFDF</color>
+    <color name="little_grey">#D3D3D3</color>
+
+    <!--     recycler view-->
+    <color name="Lb_color">#EDF4FE</color>
+    <color name="BItem_color">#BED4F5</color>
+
+    <color name="Lc_color">#FFF7EC</color>
+    <color name="CItem_color">#ffe6c5</color>
+
+
+    <color name="thunder_color">#95D8E6</color>
+    <color name="new_m">#1CBFB0</color>
+
+    <color name="date_background">#A0BE94</color>
+
+
+    <color name="red">#FF0000</color>
+    <color name="receive_grey">#F0F0F0</color>
+
+    <color name="typing">#3DDC84</color>
+
+
+    <color name="app_bar">#010727</color>
+    <color name="app_bar_text">#43475E</color>
+
+    <color name="chat_background">#DEE7F7</color>
+
+
+    <color name="floating_button_color">#D3E3FD</color>
+    <color name="tranparent">#4DD3E3FD</color>
+    <color name="blueee">#0F6EB9</color>
+
+
+    <color name="bottom_unactive">#C1C1C1</color>
+    <color name="bottom_background">#FBFBFB</color>
+
+    <color name="s_navigation_bar">#F3F3F3</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white3">#F8F8F8</color>
+
+    //
+    <color name="main_color">#00095E</color>
+
+    <color name ="ghost_white">#f8f8ff</color>
+    <color name="Grey_2">#e5e5e5</color>
+    <color name="grey2">#e2e8ea</color>
+
+    <color name="good_blue">#4B89FF</color>
+    <color name="light_blue">#0096FF</color>
+
+    <color name="blue">#3BACFF</color>
+
+    <color name="mic_color">#8E959B</color>
+    <color name="send_blue">#4EA7FF</color>
+
+    <color name="white2">#f3f3f3</color>
+    <color name="ghostWhite">#f8f8ff</color>
+    <color name="d_d1_blue2">#4b89ff</color>
+    <color name="Dc1_blue_2">#4b89ff</color>
+    <color name="White">#ffffff</color>
+    <color name="title_color">#181818</color>
+    <color name="white">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Grey_6_Dark">#35383f</color>
+    <color name="light_status_bar">#cccccc</color>
+    <color name="Dark_Yellow">#f7971e</color>
+
+    <color name="Grey_5_Light">#575b5e</color>
+
+    <color name="d_d1_dark">#2e323d</color>
+
+    <color name="lightBlack">#1E1E1E</color>
+    <color name="lightWhite">#8F8F8F</color>
+    <color name="coloredWhite">#FEFEFE</color>
+
+    //black
+    <color name="chineseBlack">#141414</color>
+    <color name="nightRider">#343434</color>
+    <color name="darkGrey">#AFAFAF</color>
+    <color name="chineseBlack2">#121212</color>
+    <color name="eerieBlack">#212121</color>
+    <color name="mostlyBlack">#303030</color>
+    <color name="black">#FF000000</color>
+
+    <color name="slateColor">#2B2B2B</color>
+    <color name="lightSlate">#363636</color>
+    <color name="lightSlateColor">#585858</color>
+    <color name="antiqueWhite">#AEB6BD</color>
+    <color name="lightAntiqueWhite">#CBD1D5</color>
+
+    //
+    <color name="Grey_4_Dark">#c1c1c1</color>
+    <color name="fifty_per_black">#80000000</color>
+    <color name="transparent">#0000</color>
+
+    //
+    <color name="cream">#EAEAEA</color>
+    <color name="lightest">#AFAFAF</color>
+
+    //
+    <color name="card_bg_color">#f6f6f6</color>
+    <color name="card_bg_dark_color">#0e0e0e</color>
+    <color name="title_text_color">#258bd6</color>
+    <color name="content_text_color">#999da4</color>
+
+    //
+    <color name="new_background">#EEF3FB</color>
+
+    //
+    <color name="light_red">#FAA292</color>
+    <color name="transparent2">#66000000</color>
+    <color name="search_color">#6F6F6F</color>
+    <color name="text_color">#8A8A8E</color>
+
+    //
+    <color name="yellow">#EDE123</color>
+    <color name="grey">#dddddd</color>
+
+    //
+    <color name="background">#F8F8FB</color>
+    <color name="tt_background">#c1c0bf</color>
+    <color name="green">#94C77D</color>
+    <color name="grey9">#C1C0BC</color>
+
+
+
+</resources>

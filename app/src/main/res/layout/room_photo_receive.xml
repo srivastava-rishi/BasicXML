@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/date_view_PR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August 22, 2021"
+        android:textSize="12sp"
+        android:textColor="@color/mic_color"
+        android:layout_gravity="center"
+        android:alpha="2.5"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/receiver_pic_pm"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/img_default_profile_light"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="1dp"
+            />
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send_photo_background"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/r_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/send_photo_src"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/r_photo_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="12:00 am"
+        android:textColor="@color/black"
+        android:layout_marginStart="78dp"
+        android:textSize="9sp" />
+
+
+
+</LinearLayout>
